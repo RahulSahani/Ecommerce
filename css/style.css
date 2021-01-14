@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ecom-title{
+    font-size: 55px;
+    font-weight: 700;
+    color: orange;
+}
+span{
+    color: rgb(21, 21, 97);
+}
+.ecom-col{
+    background-color:white;
+}
+.ecom-btn img{
+    width: 25px;
+    margin-right: 10px;
+}
+.ecom-btn{
+    width: 150px;
+    padding: 10px;
+    outline: none;
+    background-color: #9ebb2f;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    color: white;
+}
+.ecom-card{
+    background-color: rgb(102, 98, 98);
+}
+@media(max-width:680px){
+    .ecom-col{
+        display:grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
